@@ -1,0 +1,534 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json ePortfolio@0.0.1 No repository field.
+6 warn package.json ePortfolio@0.0.1 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ 'C:\\Users\\ch00ord\\Documents\\ePortfolio',
+8 verbose install   [ 'jquery',
+8 verbose install     'moment',
+8 verbose install     'angular',
+8 verbose install     'angular-animate',
+8 verbose install     'angular-cookies',
+8 verbose install     'angular-smart-table',
+8 verbose install     'angular-resource',
+8 verbose install     'angular-ui-router',
+8 verbose install     'angular-ui-utils',
+8 verbose install     'angular-ui-bootstrap' ] ]
+9 info preinstall ePortfolio@0.0.1
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'jquery@~2.1', null ]
+12 verbose cache add name=undefined spec="jquery@~2.1" args=["jquery@~2.1",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'jquery@~2.1',
+13 verbose parsed url   path: 'jquery@~2.1',
+13 verbose parsed url   href: 'jquery@~2.1' }
+14 verbose cache add [ 'moment@~2.9', null ]
+15 verbose cache add name=undefined spec="moment@~2.9" args=["moment@~2.9",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'moment@~2.9',
+16 verbose parsed url   path: 'moment@~2.9',
+16 verbose parsed url   href: 'moment@~2.9' }
+17 verbose cache add [ 'angular@~1.4', null ]
+18 verbose cache add name=undefined spec="angular@~1.4" args=["angular@~1.4",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'angular@~1.4',
+19 verbose parsed url   path: 'angular@~1.4',
+19 verbose parsed url   href: 'angular@~1.4' }
+20 verbose cache add [ 'angular-animate@~1.4', null ]
+21 verbose cache add name=undefined spec="angular-animate@~1.4" args=["angular-animate@~1.4",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'angular-animate@~1.4',
+22 verbose parsed url   path: 'angular-animate@~1.4',
+22 verbose parsed url   href: 'angular-animate@~1.4' }
+23 verbose cache add [ 'angular-cookies@~1.4', null ]
+24 verbose cache add name=undefined spec="angular-cookies@~1.4" args=["angular-cookies@~1.4",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'angular-cookies@~1.4',
+25 verbose parsed url   path: 'angular-cookies@~1.4',
+25 verbose parsed url   href: 'angular-cookies@~1.4' }
+26 verbose cache add [ 'angular-smart-table@~2.0', null ]
+27 verbose cache add name=undefined spec="angular-smart-table@~2.0" args=["angular-smart-table@~2.0",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'angular-smart-table@~2.0',
+28 verbose parsed url   path: 'angular-smart-table@~2.0',
+28 verbose parsed url   href: 'angular-smart-table@~2.0' }
+29 verbose cache add [ 'angular-resource@~1.4', null ]
+30 verbose cache add name=undefined spec="angular-resource@~1.4" args=["angular-resource@~1.4",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'angular-resource@~1.4',
+31 verbose parsed url   path: 'angular-resource@~1.4',
+31 verbose parsed url   href: 'angular-resource@~1.4' }
+32 verbose cache add [ 'angular-ui-router@~0.2', null ]
+33 verbose cache add name=undefined spec="angular-ui-router@~0.2" args=["angular-ui-router@~0.2",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'angular-ui-router@~0.2',
+34 verbose parsed url   path: 'angular-ui-router@~0.2',
+34 verbose parsed url   href: 'angular-ui-router@~0.2' }
+35 verbose cache add [ 'angular-ui-utils@~0.1', null ]
+36 verbose cache add name=undefined spec="angular-ui-utils@~0.1" args=["angular-ui-utils@~0.1",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'angular-ui-utils@~0.1',
+37 verbose parsed url   path: 'angular-ui-utils@~0.1',
+37 verbose parsed url   href: 'angular-ui-utils@~0.1' }
+38 verbose cache add [ 'angular-ui-bootstrap@~0.14', null ]
+39 verbose cache add name=undefined spec="angular-ui-bootstrap@~0.14" args=["angular-ui-bootstrap@~0.14",null]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: 'angular-ui-bootstrap@~0.14',
+40 verbose parsed url   path: 'angular-ui-bootstrap@~0.14',
+40 verbose parsed url   href: 'angular-ui-bootstrap@~0.14' }
+41 verbose cache add name="jquery" spec="~2.1" args=["jquery","~2.1"]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: '~2.1',
+42 verbose parsed url   path: '~2.1',
+42 verbose parsed url   href: '~2.1' }
+43 verbose addNamed [ 'jquery', '~2.1' ]
+44 verbose addNamed [ null, '>=2.1.0-0 <2.2.0-0' ]
+45 verbose cache add name="moment" spec="~2.9" args=["moment","~2.9"]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: '~2.9',
+46 verbose parsed url   path: '~2.9',
+46 verbose parsed url   href: '~2.9' }
+47 verbose addNamed [ 'moment', '~2.9' ]
+48 verbose addNamed [ null, '>=2.9.0-0 <2.10.0-0' ]
+49 verbose cache add name="angular" spec="~1.4" args=["angular","~1.4"]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: '~1.4',
+50 verbose parsed url   path: '~1.4',
+50 verbose parsed url   href: '~1.4' }
+51 verbose addNamed [ 'angular', '~1.4' ]
+52 verbose addNamed [ null, '>=1.4.0-0 <1.5.0-0' ]
+53 verbose cache add name="angular-animate" spec="~1.4" args=["angular-animate","~1.4"]
+54 verbose parsed url { protocol: null,
+54 verbose parsed url   slashes: null,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: null,
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: null,
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: '~1.4',
+54 verbose parsed url   path: '~1.4',
+54 verbose parsed url   href: '~1.4' }
+55 verbose addNamed [ 'angular-animate', '~1.4' ]
+56 verbose addNamed [ null, '>=1.4.0-0 <1.5.0-0' ]
+57 verbose cache add name="angular-cookies" spec="~1.4" args=["angular-cookies","~1.4"]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: '~1.4',
+58 verbose parsed url   path: '~1.4',
+58 verbose parsed url   href: '~1.4' }
+59 verbose addNamed [ 'angular-cookies', '~1.4' ]
+60 verbose addNamed [ null, '>=1.4.0-0 <1.5.0-0' ]
+61 verbose cache add name="angular-smart-table" spec="~2.0" args=["angular-smart-table","~2.0"]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: '~2.0',
+62 verbose parsed url   path: '~2.0',
+62 verbose parsed url   href: '~2.0' }
+63 verbose addNamed [ 'angular-smart-table', '~2.0' ]
+64 verbose addNamed [ null, '>=2.0.0-0 <2.1.0-0' ]
+65 verbose cache add name="angular-resource" spec="~1.4" args=["angular-resource","~1.4"]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: '~1.4',
+66 verbose parsed url   path: '~1.4',
+66 verbose parsed url   href: '~1.4' }
+67 verbose addNamed [ 'angular-resource', '~1.4' ]
+68 verbose addNamed [ null, '>=1.4.0-0 <1.5.0-0' ]
+69 verbose cache add name="angular-ui-router" spec="~0.2" args=["angular-ui-router","~0.2"]
+70 verbose parsed url { protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: '~0.2',
+70 verbose parsed url   path: '~0.2',
+70 verbose parsed url   href: '~0.2' }
+71 verbose addNamed [ 'angular-ui-router', '~0.2' ]
+72 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+73 verbose cache add name="angular-ui-utils" spec="~0.1" args=["angular-ui-utils","~0.1"]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: '~0.1',
+74 verbose parsed url   path: '~0.1',
+74 verbose parsed url   href: '~0.1' }
+75 verbose addNamed [ 'angular-ui-utils', '~0.1' ]
+76 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+77 verbose cache add name="angular-ui-bootstrap" spec="~0.14" args=["angular-ui-bootstrap","~0.14"]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: '~0.14',
+78 verbose parsed url   path: '~0.14',
+78 verbose parsed url   href: '~0.14' }
+79 verbose addNamed [ 'angular-ui-bootstrap', '~0.14' ]
+80 verbose addNamed [ null, '>=0.14.0-0 <0.15.0-0' ]
+81 silly lockFile 846e999d-jquery-2-1 jquery@~2.1
+82 verbose lock jquery@~2.1 C:\Users\ch00ord\AppData\Roaming\npm-cache\846e999d-jquery-2-1.lock
+83 silly lockFile 68a37e6a-moment-2-9 moment@~2.9
+84 verbose lock moment@~2.9 C:\Users\ch00ord\AppData\Roaming\npm-cache\68a37e6a-moment-2-9.lock
+85 silly lockFile 3153679b-angular-1-4 angular@~1.4
+86 verbose lock angular@~1.4 C:\Users\ch00ord\AppData\Roaming\npm-cache\3153679b-angular-1-4.lock
+87 silly lockFile 0a7bf06e-angular-animate-1-4 angular-animate@~1.4
+88 verbose lock angular-animate@~1.4 C:\Users\ch00ord\AppData\Roaming\npm-cache\0a7bf06e-angular-animate-1-4.lock
+89 silly lockFile 58a394b0-angular-cookies-1-4 angular-cookies@~1.4
+90 verbose lock angular-cookies@~1.4 C:\Users\ch00ord\AppData\Roaming\npm-cache\58a394b0-angular-cookies-1-4.lock
+91 silly lockFile d31d7b0a-angular-smart-table-2-0 angular-smart-table@~2.0
+92 verbose lock angular-smart-table@~2.0 C:\Users\ch00ord\AppData\Roaming\npm-cache\d31d7b0a-angular-smart-table-2-0.lock
+93 silly lockFile 8de99c80-angular-resource-1-4 angular-resource@~1.4
+94 verbose lock angular-resource@~1.4 C:\Users\ch00ord\AppData\Roaming\npm-cache\8de99c80-angular-resource-1-4.lock
+95 silly lockFile 1289beef-angular-ui-router-0-2 angular-ui-router@~0.2
+96 verbose lock angular-ui-router@~0.2 C:\Users\ch00ord\AppData\Roaming\npm-cache\1289beef-angular-ui-router-0-2.lock
+97 silly lockFile 79760fe4-angular-ui-utils-0-1 angular-ui-utils@~0.1
+98 verbose lock angular-ui-utils@~0.1 C:\Users\ch00ord\AppData\Roaming\npm-cache\79760fe4-angular-ui-utils-0-1.lock
+99 silly lockFile 541e8d18-angular-ui-bootstrap-0-14 angular-ui-bootstrap@~0.14
+100 verbose lock angular-ui-bootstrap@~0.14 C:\Users\ch00ord\AppData\Roaming\npm-cache\541e8d18-angular-ui-bootstrap-0-14.lock
+101 silly addNameRange { name: 'angular', range: '>=1.4.0-0 <1.5.0-0', hasData: false }
+102 silly addNameRange { name: 'jquery', range: '>=2.1.0-0 <2.2.0-0', hasData: false }
+103 silly addNameRange { name: 'moment', range: '>=2.9.0-0 <2.10.0-0', hasData: false }
+104 silly addNameRange { name: 'angular-animate',
+104 silly addNameRange   range: '>=1.4.0-0 <1.5.0-0',
+104 silly addNameRange   hasData: false }
+105 silly addNameRange { name: 'angular-smart-table',
+105 silly addNameRange   range: '>=2.0.0-0 <2.1.0-0',
+105 silly addNameRange   hasData: false }
+106 silly addNameRange { name: 'angular-ui-utils',
+106 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+106 silly addNameRange   hasData: false }
+107 silly addNameRange { name: 'angular-ui-router',
+107 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+107 silly addNameRange   hasData: false }
+108 silly addNameRange { name: 'angular-resource',
+108 silly addNameRange   range: '>=1.4.0-0 <1.5.0-0',
+108 silly addNameRange   hasData: false }
+109 verbose request where is /angular
+110 verbose request registry https://registry.npmjs.org/
+111 verbose request id eddc003d53c5e704
+112 verbose url raw /angular
+113 verbose url resolving [ 'https://registry.npmjs.org/', './angular' ]
+114 verbose url resolved https://registry.npmjs.org/angular
+115 verbose request where is https://registry.npmjs.org/angular
+116 info trying registry request attempt 1 at 13:35:12
+117 http GET https://registry.npmjs.org/angular
+118 verbose request where is /jquery
+119 verbose request registry https://registry.npmjs.org/
+120 verbose url raw /jquery
+121 verbose url resolving [ 'https://registry.npmjs.org/', './jquery' ]
+122 verbose url resolved https://registry.npmjs.org/jquery
+123 verbose request where is https://registry.npmjs.org/jquery
+124 info trying registry request attempt 1 at 13:35:12
+125 http GET https://registry.npmjs.org/jquery
+126 silly addNameRange { name: 'angular-cookies',
+126 silly addNameRange   range: '>=1.4.0-0 <1.5.0-0',
+126 silly addNameRange   hasData: false }
+127 verbose request where is /moment
+128 verbose request registry https://registry.npmjs.org/
+129 verbose url raw /moment
+130 verbose url resolving [ 'https://registry.npmjs.org/', './moment' ]
+131 verbose url resolved https://registry.npmjs.org/moment
+132 verbose request where is https://registry.npmjs.org/moment
+133 info trying registry request attempt 1 at 13:35:12
+134 http GET https://registry.npmjs.org/moment
+135 verbose request where is /angular-animate
+136 verbose request registry https://registry.npmjs.org/
+137 verbose url raw /angular-animate
+138 verbose url resolving [ 'https://registry.npmjs.org/', './angular-animate' ]
+139 verbose url resolved https://registry.npmjs.org/angular-animate
+140 verbose request where is https://registry.npmjs.org/angular-animate
+141 info trying registry request attempt 1 at 13:35:12
+142 http GET https://registry.npmjs.org/angular-animate
+143 silly addNameRange { name: 'angular-ui-bootstrap',
+143 silly addNameRange   range: '>=0.14.0-0 <0.15.0-0',
+143 silly addNameRange   hasData: false }
+144 verbose request where is /angular-smart-table
+145 verbose request registry https://registry.npmjs.org/
+146 verbose url raw /angular-smart-table
+147 verbose url resolving [ 'https://registry.npmjs.org/', './angular-smart-table' ]
+148 verbose url resolved https://registry.npmjs.org/angular-smart-table
+149 verbose request where is https://registry.npmjs.org/angular-smart-table
+150 info trying registry request attempt 1 at 13:35:12
+151 http GET https://registry.npmjs.org/angular-smart-table
+152 verbose request where is /angular-ui-utils
+153 verbose request registry https://registry.npmjs.org/
+154 verbose url raw /angular-ui-utils
+155 verbose url resolving [ 'https://registry.npmjs.org/', './angular-ui-utils' ]
+156 verbose url resolved https://registry.npmjs.org/angular-ui-utils
+157 verbose request where is https://registry.npmjs.org/angular-ui-utils
+158 info trying registry request attempt 1 at 13:35:12
+159 http GET https://registry.npmjs.org/angular-ui-utils
+160 verbose request where is /angular-ui-router
+161 verbose request registry https://registry.npmjs.org/
+162 verbose url raw /angular-ui-router
+163 verbose url resolving [ 'https://registry.npmjs.org/', './angular-ui-router' ]
+164 verbose url resolved https://registry.npmjs.org/angular-ui-router
+165 verbose request where is https://registry.npmjs.org/angular-ui-router
+166 info trying registry request attempt 1 at 13:35:12
+167 http GET https://registry.npmjs.org/angular-ui-router
+168 verbose request where is /angular-resource
+169 verbose request registry https://registry.npmjs.org/
+170 verbose url raw /angular-resource
+171 verbose url resolving [ 'https://registry.npmjs.org/', './angular-resource' ]
+172 verbose url resolved https://registry.npmjs.org/angular-resource
+173 verbose request where is https://registry.npmjs.org/angular-resource
+174 info trying registry request attempt 1 at 13:35:12
+175 http GET https://registry.npmjs.org/angular-resource
+176 verbose request where is /angular-cookies
+177 verbose request registry https://registry.npmjs.org/
+178 verbose url raw /angular-cookies
+179 verbose url resolving [ 'https://registry.npmjs.org/', './angular-cookies' ]
+180 verbose url resolved https://registry.npmjs.org/angular-cookies
+181 verbose request where is https://registry.npmjs.org/angular-cookies
+182 info trying registry request attempt 1 at 13:35:12
+183 http GET https://registry.npmjs.org/angular-cookies
+184 verbose request where is /angular-ui-bootstrap
+185 verbose request registry https://registry.npmjs.org/
+186 verbose url raw /angular-ui-bootstrap
+187 verbose url resolving [ 'https://registry.npmjs.org/', './angular-ui-bootstrap' ]
+188 verbose url resolved https://registry.npmjs.org/angular-ui-bootstrap
+189 verbose request where is https://registry.npmjs.org/angular-ui-bootstrap
+190 info trying registry request attempt 1 at 13:35:12
+191 http GET https://registry.npmjs.org/angular-ui-bootstrap
+192 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+193 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+194 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+195 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+196 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+197 info trying registry request attempt 2 at 13:35:43
+198 http GET https://registry.npmjs.org/angular-smart-table
+199 info trying registry request attempt 2 at 13:35:43
+200 http GET https://registry.npmjs.org/angular-animate
+201 info trying registry request attempt 2 at 13:35:43
+202 http GET https://registry.npmjs.org/moment
+203 info trying registry request attempt 2 at 13:35:43
+204 http GET https://registry.npmjs.org/angular
+205 info trying registry request attempt 2 at 13:35:43
+206 http GET https://registry.npmjs.org/jquery
+207 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+208 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+209 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+210 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+211 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+212 info trying registry request attempt 2 at 13:36:04
+213 http GET https://registry.npmjs.org/angular-ui-utils
+214 info trying registry request attempt 2 at 13:36:04
+215 http GET https://registry.npmjs.org/angular-ui-router
+216 info trying registry request attempt 2 at 13:36:04
+217 http GET https://registry.npmjs.org/angular-ui-bootstrap
+218 info trying registry request attempt 2 at 13:36:04
+219 http GET https://registry.npmjs.org/angular-resource
+220 info trying registry request attempt 2 at 13:36:04
+221 http GET https://registry.npmjs.org/angular-cookies
+222 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+223 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+224 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+225 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+226 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+227 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+228 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+229 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+230 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+231 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+232 info trying registry request attempt 3 at 13:37:15
+233 http GET https://registry.npmjs.org/angular-animate
+234 info trying registry request attempt 3 at 13:37:15
+235 http GET https://registry.npmjs.org/jquery
+236 info trying registry request attempt 3 at 13:37:15
+237 http GET https://registry.npmjs.org/moment
+238 info trying registry request attempt 3 at 13:37:15
+239 http GET https://registry.npmjs.org/angular
+240 info trying registry request attempt 3 at 13:37:15
+241 http GET https://registry.npmjs.org/angular-smart-table
+242 info trying registry request attempt 3 at 13:37:36
+243 http GET https://registry.npmjs.org/angular-ui-bootstrap
+244 info trying registry request attempt 3 at 13:37:36
+245 http GET https://registry.npmjs.org/angular-ui-router
+246 info trying registry request attempt 3 at 13:37:36
+247 http GET https://registry.npmjs.org/angular-cookies
+248 info trying registry request attempt 3 at 13:37:36
+249 http GET https://registry.npmjs.org/angular-ui-utils
+250 info trying registry request attempt 3 at 13:37:36
+251 http GET https://registry.npmjs.org/angular-resource
+252 silly lockFile 3153679b-angular-1-4 angular@~1.4
+253 silly lockFile 3153679b-angular-1-4 angular@~1.4
+254 silly lockFile d31d7b0a-angular-smart-table-2-0 angular-smart-table@~2.0
+255 silly lockFile d31d7b0a-angular-smart-table-2-0 angular-smart-table@~2.0
+256 silly lockFile 846e999d-jquery-2-1 jquery@~2.1
+257 silly lockFile 846e999d-jquery-2-1 jquery@~2.1
+258 silly lockFile 0a7bf06e-angular-animate-1-4 angular-animate@~1.4
+259 silly lockFile 0a7bf06e-angular-animate-1-4 angular-animate@~1.4
+260 silly lockFile 68a37e6a-moment-2-9 moment@~2.9
+261 silly lockFile 68a37e6a-moment-2-9 moment@~2.9
+262 silly lockFile 541e8d18-angular-ui-bootstrap-0-14 angular-ui-bootstrap@~0.14
+263 silly lockFile 541e8d18-angular-ui-bootstrap-0-14 angular-ui-bootstrap@~0.14
+264 silly lockFile 58a394b0-angular-cookies-1-4 angular-cookies@~1.4
+265 silly lockFile 58a394b0-angular-cookies-1-4 angular-cookies@~1.4
+266 silly lockFile 8de99c80-angular-resource-1-4 angular-resource@~1.4
+267 silly lockFile 8de99c80-angular-resource-1-4 angular-resource@~1.4
+268 silly lockFile 1289beef-angular-ui-router-0-2 angular-ui-router@~0.2
+269 silly lockFile 1289beef-angular-ui-router-0-2 angular-ui-router@~0.2
+270 silly lockFile 79760fe4-angular-ui-utils-0-1 angular-ui-utils@~0.1
+271 silly lockFile 79760fe4-angular-ui-utils-0-1 angular-ui-utils@~0.1
+272 error network connect ETIMEDOUT
+272 error network This is most likely not a problem with npm itself
+272 error network and is related to network connectivity.
+272 error network In most cases you are behind a proxy or have bad network settings.
+272 error network
+272 error network If you are behind a proxy, please make sure that the
+272 error network 'proxy' config is set properly.  See: 'npm help config'
+273 error System Windows_NT 6.1.7601
+274 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+275 error cwd C:\Users\ch00ord\Documents\ePortfolio
+276 error node -v v0.10.33
+277 error npm -v 1.4.28
+278 error syscall connect
+279 error code ETIMEDOUT
+280 error errno ETIMEDOUT
+281 verbose exit [ 1, true ]

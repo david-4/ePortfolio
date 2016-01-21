@@ -1,0 +1,113 @@
+body{
+  background-color: #333333;
+  color: #ffffff;
+  font-family: calibri, sans-serif;
+  display: table;
+  position: absolute;
+  height: 90%;
+  width: 99%;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#container{
+  align: center;
+}
+
+#content,
+.row{
+  margin: 0 auto;
+  display: table;
+}
+
+.flat{
+  width: 250px;
+  height: 135px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.cloud{
+  opacity: 0;
+}
+
+.circle1,
+.circle2{
+  float: left;
+  background-color: #000000;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.circle1{
+  width: 120px;
+  height: 120px;
+  margin-right: -30px;
+  margin-left: 30px;
+}
+.circle2{
+  width: 100px;
+  height: 100px;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.circles{
+  height: 80px;
+}
+
+.cloudbottom{
+  background-color: #000000;
+  width: 236px;
+  height: 55px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  margin-left: 7px;
+}
+
+@keyframes show {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.cloud:hover {
+  display: block;
+  animation: show 0.5s ease-in-out both;
+  fillmode: forward;
+}
+
+.cloud-container:hover {
+  background-color: #333333!important;
+}
+
+span.title{
+  width: 250px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 45px;
+}
+
+span.description{
+  width: 190px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  margin: 40px 30px 0 30px;
+}
+
+#container {
+  display: table-cell;
+  vertical-align: middle;
+}

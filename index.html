@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ePortfolioApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="assets/img/fav.ico">
+
+    <title>ePortfolio Wetter</title>
+
+    <link href="modules/angular-busy/dist/angular-busy.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <script src="modules/angular/angular.min.js"></script>
+    <script src="modules/jquery/dist/jquery.min.js"></script>
+    <script src="modules/angular-animate/angular-animate.min.js"></script>
+    <script src="modules/angular-resource/angular-resource.min.js"></script>
+    <script src="modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="modules/angular-ui-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="modules/moment/min/moment-with-locales.min.js"></script>
+    <script src="modules/angular-ui-utils/modules/keypress/keypress.js"></script>
+    <script src="modules/angular-smart-table/dist/smart-table.min.js"></script>
+    <script src="modules/angular-cookies/angular-cookies.min.js"></script>
+
+    <script src="app.js"></script>
+    <script src="assets/jquery/jquery.js"></script>
+    <script src="components/cloud/cloud-directive.js"></script>
+    <script src="components/img-home/img-home-directive.js"></script>
+
+</head>
+<body>
+<div id="container">
+    <div id="content">
+        <div ui-view></div>
+
+        <div class="row">
+            <eportfolio-cloud-directive cloud-color="#999933"
+                                        cloud-container-color="#999933"
+                                        title="Portfolio"
+                                        description="Finden Sie alle bearbeiteten Bilder."
+                                        link="app.portfolio">
+            </eportfolio-cloud-directive>
+            <eportfolio-img-home-directive source="assets/img/weather/sun.jpg">
+            </eportfolio-img-home-directive>
+            <eportfolio-cloud-directive cloud-color="#b1b1b1"
+                                        cloud-container-color="#b1b1b1"
+                                        title="Film"
+                                        description="Sie finden hier unseren selbstgemacht und -bearbeiteten Film."
+                                        link="app.film">
+            </eportfolio-cloud-directive>
+        </div>
+        <div class="row">
+            <eportfolio-img-home-directive source="assets/img/weather/storm.jpg">
+            </eportfolio-img-home-directive>
+            <eportfolio-cloud-directive cloud-color="#ff9933"
+                                        cloud-container-color="#ff9933"
+                                        title="Detail"
+                                        description="Unter Details finden Sie die Überlegungen bei den Bildbearbeitungen. "
+                                        link="app.detail">
+            </eportfolio-cloud-directive>
+            <eportfolio-img-home-directive source="assets/img/weather/snow.jpg">
+            </eportfolio-img-home-directive>
+        </div>
+        <div class="row">
+            <eportfolio-cloud-directive cloud-color="red"
+                                        cloud-container-color="red"
+                                        title="Kontakt"
+                                        description="Kontaktieren Sie uns. Finden Sie alle Informationen zur Kontaktfindung."
+                                        link="app.contact">
+            </eportfolio-cloud-directive>
+            <eportfolio-img-home-directive source="assets/img/weather/rain.jpg">
+            </eportfolio-img-home-directive>
+            <eportfolio-cloud-directive cloud-color="#d6f0fd"
+                                        cloud-container-color="#d6f0fd"
+                                        title="Impressum"
+                                        description="Informationen über das Impressum dieser Website."
+                                        link="app.impressum">
+            </eportfolio-cloud-directive>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
