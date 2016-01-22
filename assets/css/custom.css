@@ -149,6 +149,8 @@ span.description{
   position: absolute;
   top: 0;
   left: 0;
+  box-shadow: 3px 3px 2px #000000;
+  border-radius: 4px;
 }
 
 div.vertical-horizontal-centered{
