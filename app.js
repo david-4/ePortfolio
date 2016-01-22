@@ -11,7 +11,9 @@
         'ngCookies',
 
         'ePortfolioApp.cloud',
-        'ePortfolioApp.imgHome'
+        'ePortfolioApp.imgHome',
+        'ePortfolioApp.gallery',
+        'ePortfolioApp.flip.container'
     ])
 
     ePortfolioApp.config(
@@ -30,6 +32,10 @@
                     }).state('app.about', {
                         url: '/about',
                         templateUrl: 'components/about/about.html'
+                    }).state('app.portfolio', {
+                        url: '/gallery',
+                        templateUrl: 'components/gallery/gallery.html',
+                        controller: 'GalleryController'
                     });
 
             }
