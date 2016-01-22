@@ -8,8 +8,8 @@ angular.module('ePortfolioApp.cloud', []).directive('eportfolioCloudDirective', 
             description: '@description',
             link: '@link'
         },
-        template: '<div class="flat cloud-container" style="background-color: {{cloudContainerColor }}">'
-                + '<span class="title"><a ui-sref="{{ link }}">{{ title }}</a></span>'
+        template: '<div class="flat cloud-container" style="background: {{cloudContainerColor }} ">'
+                + '<span class="title""><a ui-sref="{{ link }}">{{ title }}</a></span>'
                 + '<div class="cloud">'
                 + '<span class="description"><a ui-sref="{{ link }}">{{ description }}</a></span>'
                 + '<div class="circles">'

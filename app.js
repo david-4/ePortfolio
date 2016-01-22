@@ -28,9 +28,9 @@
                         url: '/overview',
                         templateUrl: 'components/overview/overview.html'
                     }).state('app.about', {
-                    url: '/about',
-                    templateUrl: 'components/about/about.html'
-                });
+                        url: '/about',
+                        templateUrl: 'components/about/about.html'
+                    });
 
             }
         ]);
