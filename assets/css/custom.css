@@ -86,7 +86,7 @@ a{
 }
 
 .cloud-container:hover {
-  background-color: #333333!important;
+  background: #333333!important;
 }
 
 span.title{
@@ -111,3 +111,12 @@ span.description{
   display: table-cell;
   vertical-align: middle;
 }
+
+.left{
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
