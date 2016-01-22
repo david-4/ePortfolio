@@ -48,16 +48,15 @@ a{
 }
 
 .circle1{
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
+  margin-top: 25px;
   margin-right: -30px;
   margin-left: 30px;
 }
 .circle2{
-  width: 100px;
-  height: 100px;
-  margin-top: 25px;
-  margin-right: 20px;
+  width: 120px;
+  height: 120px;
 }
 
 .circles{
@@ -104,7 +103,7 @@ span.description{
   font-size: 18px;
   font-weight: bold;
   position: absolute;
-  margin: 40px 30px 0 30px;
+  margin: 45px 30px 0 30px;
 }
 
 #container {
